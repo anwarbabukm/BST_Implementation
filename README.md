@@ -7,6 +7,8 @@ Warehouse has certain number of trucks that transport supplies in and out of the
 **Goal:** 
 The objective of the assignment is to implement the Binary Tree ADT for storing vehicle records entering and leaving a warehouse as part of the delivery service and run different analysis based on the prompts.
 
+**Design:**
+We have designed a Binary Tree ADT where each node can store the Vehicle Id and the counter to check the total in/out passage of the vehicles in the warehouse. The input is extracted from the inputps2.txt file where the first line represents the maximum delivery a vehicle is allowed to carry out in a day. The second line of the file is considered as the root node of the Binary Tree. If the vehicle Id is less than root node then it is fed to left node else it is fed to right node and the operation repeats for subsequent values as well. When the vehicle Id is already loaded to the tree, then counter variable is incremented for each in/out movement from the warehouse. Vehicles Ids are not allowed to enter the details when counter reaches the maximum delivery for a day. The time complexity of the Binary Tree in worst case scenario is O(n) which makes it reliable for operations to carry out.
 
 **Operations:**
 
