@@ -1,0 +1,62 @@
+------------- printTruckRec ---------------
+Total number of vehicles entered in the warehouse: 6
+31,1
+34,4
+56,0
+231,0
+453,1
+643,0
+----------------------------------------------
+
+------------- checkTruckRec: 31 ---------------
+Vehicle ID 31 enters 1 time(s) into the sytem.Its currently fulfilling an open order
+----------------------------------------------
+
+------------- checkTruckRec: 542 ---------------
+Vehicle ID 542 did not come to the warehouse today
+----------------------------------------------
+
+------------- printOrderStatus: 11 ---------------
+The following status of 11
+Open Orders: 2
+Closed Orders: 1
+Yet to be fulfilled: 8
+----------------------------------------------
+
+------------- highFreqTrucks: 2 ---------------
+Vehicles that moved in/out more than 2 times are:
+34,4
+----------------------------------------------
+
+------------- maxDeliveries ---------------
+Max Deliveries are 2
+1 Vehicle Id(s) did their maximum deliveries
+34
+----------------------------------------------
+
+------------- availTrucks --------------- 
+3 Vehicle Id(s) that are currently available to deliver supplies:
+56
+231
+643
+----------------------------------------------
+
+------------- updateTruckRec:112---------------
+Vehicle Id 112 record updated
+----------------------------------------------
+
+------------- updateTruckRec:453---------------
+Vehicle Id 453 record updated
+----------------------------------------------
+
+------------- printTruckRec ---------------
+Total number of vehicles entered in the warehouse: 7
+31,1
+34,4
+56,0
+112,0
+231,0
+453,2
+643,0
+----------------------------------------------
+
